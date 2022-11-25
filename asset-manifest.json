@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/brand-nav-project/static/css/main.d41e8084.css",
+    "main.js": "/brand-nav-project/static/js/main.bbf7d306.js",
+    "static/js/787.20bc2cf5.chunk.js": "/brand-nav-project/static/js/787.20bc2cf5.chunk.js",
+    "static/media/MaskGroup(1).svg": "/brand-nav-project/static/media/MaskGroup(1).64a407400237b2f2db6fcd37703de60c.svg",
+    "static/media/HugeGlobal.svg": "/brand-nav-project/static/media/HugeGlobal.cd3f4cb073af7ceaf306b465e99c5f3c.svg",
+    "static/media/MaskGroup(2).svg": "/brand-nav-project/static/media/MaskGroup(2).d33542880ac496a581b42e3b69d4ece8.svg",
+    "static/media/MaskGroup.svg": "/brand-nav-project/static/media/MaskGroup.999e6a1c65b743b9a0588d4370e6d9de.svg",
+    "static/media/MaskGroup(4).svg": "/brand-nav-project/static/media/MaskGroup(4).d90c8b9d7bc41b4312761068c0f9bf1e.svg",
+    "static/media/Illustration1.svg": "/brand-nav-project/static/media/Illustration1.a61e474279c35d12ea1f0a5af4286d9e.svg",
+    "static/media/Illustration2.svg": "/brand-nav-project/static/media/Illustration2.788bd41762f7097c520ec8227dfd523c.svg",
+    "static/media/MaskGroup(3).svg": "/brand-nav-project/static/media/MaskGroup(3).66a1b8c13b515e178d4111565561f8d8.svg",
+    "static/media/Logo.svg": "/brand-nav-project/static/media/Logo.442e6676fc8e1e8fc842bd6a9e950ced.svg",
+    "static/media/Free.svg": "/brand-nav-project/static/media/Free.50532e3b86d684c9d5270c91741946f9.svg",
+    "static/media/logo.svg": "/brand-nav-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Group 1217.svg": "/brand-nav-project/static/media/Group 1217.71b4e4332683a14ddc0f5dd6344121d0.svg",
+    "static/media/Group 1215.svg": "/brand-nav-project/static/media/Group 1215.37a36ed79f352f526786d3e8af8b0512.svg",
+    "static/media/Group 1216.svg": "/brand-nav-project/static/media/Group 1216.35b67490ce249c3978e9bb5e8cc31753.svg",
+    "static/media/Group 1120.svg": "/brand-nav-project/static/media/Group 1120.0294778832d2afbd3d43fe720fc55bb1.svg",
+    "index.html": "/brand-nav-project/index.html",
+    "main.d41e8084.css.map": "/brand-nav-project/static/css/main.d41e8084.css.map",
+    "main.bbf7d306.js.map": "/brand-nav-project/static/js/main.bbf7d306.js.map",
+    "787.20bc2cf5.chunk.js.map": "/brand-nav-project/static/js/787.20bc2cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d41e8084.css",
+    "static/js/main.bbf7d306.js"
+  ]
+}
