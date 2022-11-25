@@ -16,8 +16,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import "./appBar.css";
 import logo from "../Assets/Logo.svg";
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['About','Features', 'Pricing','Testimonials','Help'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -39,141 +38,32 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed" className='appBar-main'>
       <Container maxWidth="xl" className="appbar-container">
         <Toolbar disableGutters>
          
-          <img src={logo} sx={{width:20 , height:20}}/>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color:'black',
-              textDecoration: 'none',
-            }}
-          >
-           
-          </Typography>
+          <img src={logo} className="logo-app-bar"/>
+
 
           
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              
-              textDecoration: 'none',
-            }}
-          >
-            About
-          </Typography>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              
-              textDecoration: 'none',
-            }}
-          >
-            Feature
-          </Typography>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              
-              textDecoration: 'none',
-            }}
-          >
-            Pricing
-          </Typography>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              
-              textDecoration: 'none',
-            }}
-          >
-            Testimony
-          </Typography>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              
-              textDecoration: 'none',
-            }}
-          >
-            Help
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+         
+          <Box sx={{ flexGrow: 1 ,boxShadow: 'none' ,  display: { xs: 'none', md: 'flex' , justifyItems:'space-between', justifyContent:'center'} }}>
             {pages.map((page) => (
               <Button
                 key={page}
+               
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'black', display: 'block' }}
               >
                 {page}
               </Button>
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
-            
-            
-            <Button variant="outlined">Primary</Button>
+          <Box className='action-buttons-app-bar' sx={{ flexGrow: 0 ,boxShadow: 'none'}}>
+          <Button className="button-sign-in">Sign In</Button> &nbsp;
+            <Button className='button-sign-up'>Sign Up</Button>
           </Box>
         </Toolbar>
       </Container>
