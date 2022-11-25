@@ -1,0 +1,48 @@
+.data-row-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+
+  margin: 4rem 5rem;
+  margin-left:0.5rem;
+  align-items: center;
+    align-content: center;
+    justify-items:center;
+
+}
+
+.data-item{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:flex-start;
+    align-content: center;
+    justify-items:center
+}
+
+
+.card-content {
+    padding: 0 !important;
+    font-size:20px;
+    margin: auto;
+    align-self: flex-start;
+}
+
+
+.card-data-row-img{
+    margin:auto;
+    padding-top:1rem;
+    padding-right:0.5rem;
+    padding-left: 3rem;
+    padding-bottom: 0;
+    width:60px;
+    height:70px; 
+    
+}
+
+.card-content-text{
+    font-weight: 700;
+    font-size:30px;
+    padding: 0;
+    margin-top: 1.5rem;
+    
+}

@@ -1,0 +1,18 @@
+.container-choosePlan{
+    margin:2rem 8rem;
+    
+}
+
+.plan-item{
+    width: 20%;
+
+}
+.choose-plan-subtext{
+    font-size: 18px;
+}
+
+.choose-plan-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color:black
+}

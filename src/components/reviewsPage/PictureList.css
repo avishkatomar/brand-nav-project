@@ -1,0 +1,13 @@
+.picture-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  position: relative;
+  margin: 1rem;
+  align-items: center;
+    align-content: center;
+    justify-items:center
+}
+
+.picture-item{
+ 
+}

@@ -1,0 +1,42 @@
+.illustration2-Card {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    align-content: center;
+    justify-items:center;
+    margin:2rem 5rem;
+
+}
+.features-heading{
+    display:flex;
+    margin:auto;
+    font-weight: 600;
+    font-size:46px;
+}
+.card-img-2{
+    width:80%;
+    height:80%;
+    align-items: center;
+}
+
+
+
+.container{
+    display:flex;
+}
+ .card-text{
+    margin:2rem;
+    
+}
+.features-type{
+    margin:auto;
+    color:gray;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 1rem; 
+}
+
+.feature-points{
+    margin: 1rem;
+}
+

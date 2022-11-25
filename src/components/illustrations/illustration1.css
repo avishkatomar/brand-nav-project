@@ -1,0 +1,48 @@
+
+.container{
+    display:flex;
+    margin:0rem 5rem;
+    margin-bottom: 2rem;
+
+}
+.illustration1-Card{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+ .card-text{
+    margin:2rem;
+    margin-top: 3rem;    
+}
+
+
+.main-heading{
+    margin:auto;
+    font-weight: 700;
+    font-size:46px;
+}
+
+.illustrations-card-action1{
+    margin:1rem;
+}
+
+.company-name-1{
+    font-weight: 800;
+}
+.main-content1{
+    display:flex;
+    margin:auto;
+    font-size: 16px;
+    
+    text-align: justify;
+    padding: 1rem; 
+}
+
+.data-row{
+    margin:1rem;
+}
+
+.button-illustrations1{
+    background-color: orangered !important;
+    color:white !important;
+    padding:1rem 3rem !important;
+}

@@ -1,0 +1,64 @@
+.box-img{
+    width: 50% !important;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.choose-plan-heading{
+    padding: 1rem;
+}
+
+.p-tag-points-parent{
+    margin:auto;
+    text-align: left;
+
+}
+
+.p-tag{
+    justify-content: center;
+    padding: 0.25rem;
+    padding-right: 3rem !important;
+    
+}
+
+
+.button-plan-item{
+    color:orangered !important;
+}
+
+.button-plan-item:hover{
+    color:white !important;
+
+}
+
+.button-container{
+    max-width:fit-content ;
+    margin: auto;
+    border-radius: 1rem !important;
+    border: 2px solid black;
+    border-color: orangered !important;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.button-container:hover{
+    max-width:fit-content ;
+    margin: auto;
+    border-radius: 1rem !important;
+    border: 2px solid orangered;
+    border-color: orangered !important;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color:white !important;
+    background-color: orangered;
+}
+
+
+
+
+
+.price{
+    font-size: 24px;
+    font-weight: 600;
+}

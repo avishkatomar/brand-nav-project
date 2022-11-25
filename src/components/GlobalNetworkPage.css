@@ -1,0 +1,23 @@
+.global-network-container{
+    margin-top: 4rem;
+}
+
+.Global-network{
+    width: 20%;
+    display:flex;
+    margin:auto;
+    font-weight: 600;
+
+}
+.Global-network-content{
+    width:35%;
+    display:flex;
+    margin:auto;
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+.company-name{
+    font-style: bold !important;
+    font-weight: 600;
+}
