@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brand-nav-project/static/css/main.d41e8084.css",
-    "main.js": "/brand-nav-project/static/js/main.bbf7d306.js",
+    "main.css": "/brand-nav-project/static/css/main.27447953.css",
+    "main.js": "/brand-nav-project/static/js/main.1c5a0d0f.js",
     "static/js/787.20bc2cf5.chunk.js": "/brand-nav-project/static/js/787.20bc2cf5.chunk.js",
     "static/media/MaskGroup(1).svg": "/brand-nav-project/static/media/MaskGroup(1).64a407400237b2f2db6fcd37703de60c.svg",
     "static/media/HugeGlobal.svg": "/brand-nav-project/static/media/HugeGlobal.cd3f4cb073af7ceaf306b465e99c5f3c.svg",
@@ -19,12 +19,12 @@
     "static/media/Group 1216.svg": "/brand-nav-project/static/media/Group 1216.35b67490ce249c3978e9bb5e8cc31753.svg",
     "static/media/Group 1120.svg": "/brand-nav-project/static/media/Group 1120.0294778832d2afbd3d43fe720fc55bb1.svg",
     "index.html": "/brand-nav-project/index.html",
-    "main.d41e8084.css.map": "/brand-nav-project/static/css/main.d41e8084.css.map",
-    "main.bbf7d306.js.map": "/brand-nav-project/static/js/main.bbf7d306.js.map",
+    "main.27447953.css.map": "/brand-nav-project/static/css/main.27447953.css.map",
+    "main.1c5a0d0f.js.map": "/brand-nav-project/static/js/main.1c5a0d0f.js.map",
     "787.20bc2cf5.chunk.js.map": "/brand-nav-project/static/js/787.20bc2cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d41e8084.css",
-    "static/js/main.bbf7d306.js"
+    "static/css/main.27447953.css",
+    "static/js/main.1c5a0d0f.js"
   ]
 }
