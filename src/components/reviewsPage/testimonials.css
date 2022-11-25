@@ -1,0 +1,15 @@
+.tab-buttons{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+}
+
+.tab-cards{
+    display:flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
